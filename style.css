@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 7%,
+    rgba(8, 8, 110, 1) 53%,
+    rgb(173, 56, 58) 100%
+  );
+}
+.logo a,
+.reg_block a{
+    color: white;
+}
+
+
+.d_nav ul a:hover,
+.logo a:hover,
+.reg_block a:hover{
+    color: rgb(243, 9, 9);
+}
+.d_header,
+.d_nav ul,
+.reg_block {
+    
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.d_nav a,
+.reg_block p {
+  color: white;
+  float: left;
+  padding-left: 15px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register a{
+
+     width: 90px;
+    height:auto;
+   border: 1px solid black;
+    border-radius: 50px;
+   padding-left: 25px;  
+}
+.register a:hover{
+
+     width: 90px;
+    height:auto;
+   border: 1px solid black;
+    border-radius: 50px;
+   padding-left: 25px; 
+   background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 7%,
+    rgba(8, 8, 110, 1) 53%,
+    rgb(173, 56, 58) 100%
+  ); 
+}
+
+
+/* and of header */
+
+/* main */
+.d_main {
+  padding-top: 10%;
+  text-align: center;
+}
+.mini_text {
+  font-size: 25px;
+}
+.title {
+  font-size: 50px;
+   background: -webkit-linear-gradient( 90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.text {
+  padding-left: 255px;
+  padding-right: 255px;
+}
+.button_block{
+    padding-top: 25px;
+    display: flex;
+  justify-content: center;
+}
+.button {
+  border: 1px solid black;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50.0391px;
+}
+.button:hover {
+     background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 7%,
+    rgba(8, 8, 110, 1) 53%,
+    rgb(173, 56, 58) 100%
+  );
+  border: 1px solid black;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50.0391px;
+}
+
+
+/* icon_block */
+.icon_block{
+    padding-top: 25px;
+}
