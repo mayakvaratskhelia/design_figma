@@ -29,7 +29,7 @@ body {
 .d_header,
 .d_nav ul,
 .reg_block {
-    
+    flex-wrap: wrap;
   padding: 10px;
   align-items: center;
   display: flex;
@@ -43,6 +43,7 @@ body {
 }
 .register{
     display: flex;
+    
     justify-content: center;
     align-items: center;
 }
